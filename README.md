@@ -1,63 +1,56 @@
-# UtilityBox (v2.x)
+# UtilityBox 🚀
 
-A high-performance, lightweight, and mission-critical desktop application for developers. UtilityBox consolidates fragmented terminal commands into a sleek, unified GUI powered by Tauri and Rust.
+**UtilityBox** is a powerful, lightweight, and mission-critical desktop application for developers. It consolidates fragmented terminal commands and local tools into a single, modern, and lightning-fast Graphical User Interface (GUI), built on **Tauri v2** and **Rust**.
 
-## 🚀 Core Modules
+---
 
-- **🐋 Docker Orchestrator**: 
-  - Comprehensive dashboard for Containers, Images, Volumes, and Networks.
-  - **Live Management**: Start, stop, restart, and remove resources with real-time status updates.
-  - **Image Tools**: Pull from Docker Hub or build local images from source context.
-  - **Bridge to Browser**: 1-Click access to exposed web services via `127.0.0.1:[port]`.
-  - **Advanced Ops**: Integrated terminal (Attach Shell), detailed resource inspection, and bulk cleanup (Stop All, Prune).
-- **🚀 Project Engine**: Manage isolation for Node.js and PHP project environments. Rapidly toggle versions and launch terminal-ready environments.
-- **🧹 Project Janitor**: Scan and instantly purge heavy build artifacts (`node_modules`, `dist`, `vendor`) across scattered projects to reclaim disk space.
-- **🛠 Dev Utils Pocket**: A collection of offline-first tools:
-  - JSON Formatter/Validator
-  - Base64 & URL Encoder/Decoder
-  - Hash Generator (MD5, SHA, etc.)
-  - JWT Debugger, Regex Tester, UUID Generator, and Timestamp Converter.
-- **📝 Hosts Manager**: Edit and manage system DNS overrides with native privilege elevation (Admin/Sudo).
-- **🔌 Port Killer**: Detect and terminate stubborn processes bound to system ports in 1-click.
-- **🎬 Media Suite**: Batch image optimization and video transcoding powered by FFmpeg.
+## ✨ Key Highlights (V2 Upgrades)
+- **Modern & Futuristic UI:** Transitioned from Neobrutalism to a sleek, high-contrast, minimalist design with seamless Dark/Light Mode synchronization. Features dynamic font scaling and smooth state persistence across application restarts.
+- **Customizable Auto-Updater:** Automated patch and feature delivery system with support for custom standalone installation paths.
+- **Optimized Architecture:** Ultra-smooth frontend rendering with zero lag. Heavy lifting is securely delegated to the Rust backend, executing operations stealthily without triggering disruptive, flashing terminal windows (especially on Windows).
 
-## 🛠 Tech Stack
+---
 
-- **Frontend Core**: [Vue 3](https://vuejs.org/), [TypeScript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/)
-- **UI System**: [DaisyUI](https://daisyui.com/), [Tailwind CSS](https://tailwindcss.com/)
-- **Desktop Framework**: [Tauri v2](https://v2.tauri.app/), [Rust](https://www.rust-lang.org/)
-- **Engine Dependencies**: [Docker](https://www.docker.com/), [FFmpeg](https://ffmpeg.org/)
+## 🛠 Core Modules & Deep Features
 
-## 📋 Prerequisites
+### 1. 🐋 Docker Orchestrator
+A comprehensive management and monitoring dashboard tailored for the Docker ecosystem.
+- **Comprehensive Control:** Seamlessly monitor and manage Containers, Images, Volumes, and Networks.
+- **Live Management:** Start, stop, restart, or remove resources with real-time status updates without dropping a beat.
+- **Integrated Console Bridge:** Embedded xterm.js powered console to instantly attach to container shells, orchestrate image builds, or fire up system-wide prunes.
 
-- **Docker Desktop**: Required for Docker Orchestrator module.
-- **Node.js** & **npm**: Standard development dependencies.
-- **Rust**: For compiling the high-performance backend.
-- **FFmpeg**: For media conversion functionality (automated setup available).
+### 2. 🎨 Color Forge
+A specialized playground for color analysis and design.
+- Features real-time, bi-directional conversion across an extensive range of technical color formats: **RGB, HEX, sRGB, HSV, and CMYK**.
 
-## ⚙️ Setup & Development
+### 3. ⚙️ Background Managers
+Stealthily orchestrate local development utilities via CLI wrappers without invoking annoying popup consoles:
+- **Nginx Engine:** Local routing and reverse proxy management.
+- **Mailpit:** Local mail delivery tester.
+- **MediaConverter (FFmpeg):** Rapid video and image format conversion and sizing.
 
-1. **Clone & Install:**
-   ```bash
-   git clone <your-repository-url>
-   npm install
-   ```
+### 4. 🧹 Node/PHP Project Janitor
+- Instantly scan scattered directories for massive disk-hogging dependencies like `node_modules`, `dist`, or `vendor`. Reclaim gigabytes of storage with a single click.
 
-2. **FFmpeg Sidecar (Windows/macOS):**
-   Run the setup script to provision the required native binaries for media conversion:
-   ```powershell
-   npm run setup-win
-   ```
+### 5. 🧰 Dev Utils Pocket
+A massive toolbox running *100% offline*:
+- JSON Formatter & Validator.
+- Base64 & URL Encoder/Decoder.
+- Hash Fingerprint Generator (MD5, SHA, etc.).
+- JWT Debugger, Regex (Regular Expression) Tester, UUID Generator, and Epoch Timestamp Converter.
 
-3. **Start Running:**
-   ```bash
-   npm run tauri dev
-   ```
+### 6. 🔌 Network & System Monitors
+- **Hosts Manager:** Directly manage your OS `hosts` file for DNS overrides, utilizing elevated privileges (Admin/Sudo) right from the interface.
+- **Port Killer:** Accurately identify the rogue PIDs hogging stubborn network ports and forcibly terminate them.
 
-## 📦 Distribution
+---
 
-- `npm run tauri build`: Compiles optimized, signed production binaries. Output available in `src-tauri/target/release/bundle/`.
+## 💻 Tech Stack In Action
+The UtilityBox engine is driven by breakthrough 2025 performance technologies:
+- **Client Render (Frontend):** [Vue 3](https://vuejs.org/), [TypeScript](https://www.typescriptlang.org/), [Vite 6](https://vitejs.dev/)
+- **Design System:** [Tailwind CSS v4](https://tailwindcss.com/) paired with [DaisyUI v5](https://daisyui.com/) (Native Dark Theme Ready).
+- **Core Engine (Backend/Desktop):** [Tauri v2](https://v2.tauri.app/) and the high-performance language [Rust](https://www.rust-lang.org/).
+- **Supporting Components:** Xterm.js for the embedded terminal, paired with SystemInfo crate for deep system diagnostics.
 
-## 📄 License
-
-Licensed under the Apache License, Version 2.0.
+---
+*Reinvented for standardized workflows, UtilityBox strips away the mundane chores, accelerating your productivity to its absolute limit.*
