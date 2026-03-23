@@ -1,0 +1,11 @@
+{
+  "version": "2.3.32",
+  "notes": "See the assets below for the latest installers and updates.",
+  "pub_date": "2026-03-19T11:29:06.477Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcTdhRVhlZjZ5cEhUanE4bVJnSzhBdFhtekprOUgyeWt3cHd4aE1XcFQ3UThvNnJnZGZjWkU1OTNuRjVkVUgwNFZaRmJKZG1nSEd3Z0dZbHNDMmFGZGw4RFdaMnU3T1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczOTE5NzM3CWZpbGU6VXRpbGl0eUJveF8yLjMuMzJfeDY0LXNldHVwLmV4ZQp1SS92VWtUekFMTnNjbE1RR0hwZ3cwaXV5R2ZmN0JXZ0lNeVptUk0zSUlkeWhObWl6K2NkemJVejBSYk5KSUROWkNleDlIMVNMY1lSZ091dHR3WUdEQT09Cg==",
+      "url": "https://github.com/ByteTCore/utilitybox/releases/download/v2.3.32/UtilityBox_2.3.32_x64-setup.exe"
+    }
+  }
+}
