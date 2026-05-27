@@ -1,11 +1,11 @@
 {
-  "version": "2.5.12",
+  "version": "2.5.14",
   "notes": "See the assets below for the latest installers and updates.",
-  "pub_date": "2026-05-27T10:42:54.661Z",
+  "pub_date": "2026-05-27T11:15:57.627Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcTdhRVhlZjZ5cEE5aDFkVG81bUU1WkNkYUtSa0ppc3hrdHE2QnRZMVZtbmtiNkwzUEhaN3pZK2JBdVkrTzhXaGdEdVJzRkhBaFZ0K1V4YmRmTHFUVzVRd3RtNTNXQ2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5ODc4NTY2CWZpbGU6VXRpbGl0eUJveF8yLjUuMTJfeDY0LXNldHVwLmV4ZQpmZE96TVlTejZnMHBIdjIzb1ZMVDFsL2FmR1RHcE5MRzVUbUp5Ni95M2NjMUtSaXdRRWtXb2RpZVpCY2hkSkpuWlpqaEM4ZE4rYXNNbGVTOXpWa2tBdz09Cg==",
-      "url": "https://github.com/ByteTCore/utilitybox/releases/download/v2.5.12/UtilityBox_2.5.12_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcTdhRVhlZjZ5cE5zYkdYTzFhWE9pQ0FKc2tQRFRkc0JOSFFDRkZ4b0d2OWNjTngxWmw5ZTRXemJ0V1pXeEFyeFF6ZGNEY3FaeC92ZzRzM2tOMnd0bGUzMkNXbm5CdndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5ODgwNTQ3CWZpbGU6VXRpbGl0eUJveF8yLjUuMTRfeDY0LXNldHVwLmV4ZQpDOStHcnZ1WjFSTEc1bWtVVGpwKzRHUjRTVzVMVG1zeGQ2UC9rKzM4SFFERXhWN1BPaUZUSElreGp1ZXU0dWdlV1kzS2g4d0g0aFVNTDZFVE5YQmREZz09Cg==",
+      "url": "https://github.com/ByteTCore/utilitybox/releases/download/v2.5.14/UtilityBox_2.5.14_x64-setup.exe"
     }
   }
 }
