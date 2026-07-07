@@ -1,47 +1,162 @@
-# UtilityBox
+# 🧰 UtilityBox
 
-A high-performance, lightweight, and mission-critical desktop application for developers. UtilityBox consolidates fragmented terminal commands into a sleek, unified GUI powered by Tauri and Rust.
+UtilityBox is a local-first desktop workspace for developers who need fast, practical tools for daily engineering work. It combines data utilities, runtime controls, project maintenance, file inspection, system helpers, and media conversion into one focused application.
 
-## 📥 Download
+The app is built for workflows that usually require several separate tools: formatting JSON, decoding tokens, checking ports, managing local runtimes, editing hosts entries, opening large text-like files, cleaning project artifacts, or converting image and video files. UtilityBox keeps these tasks in one place so developers can move quickly without switching context.
 
-**Get the latest stable release for Windows & macOS:**  
-👉 **[utilitybox.th.pro.vn](https://utilitybox.th.pro.vn/)**
+## 🎯 1. What is UtilityBox for?
 
-## 🚀 Core Modules
+UtilityBox is designed to help developers handle common local tasks directly from a desktop application.
 
-- **🐋 Docker Orchestrator**: 
-  - Comprehensive dashboard for Containers, Images, Volumes, and Networks.
-  - **Live Management**: Start, stop, restart, and remove resources with real-time status updates.
-  - **Image Tools**: Pull from Docker Hub or build local images from source context.
-  - **Bridge to Browser**: 1-Click access to exposed web services via `127.0.0.1:[port]`.
-  - **Advanced Ops**: Integrated terminal (Attach Shell), detailed resource inspection, and bulk cleanup (Stop All, Prune).
-- **🌐 SSH & SFTP Suite**: 
-  - **Profile Manager**: Securely save connection profiles with custom ports, keys, and tags.
-  - **Bastion Support**: Tunnel through Jump Hosts with automated SSH configuration.
-  - **Key Forge**: Generate high-security ED25519/RSA keys or import existing ones.
-  - **Integrated SFTP**: Professional file browsing and management over SSH.
-- **🚀 Project Engine**: 
-  - Cross-language environment management for **Node.js, PHP, Python, and Go**.
-  - Rapid version switching and environment-aware terminal launching.
-- **⚙️ Server Stack**: 
-  - **Nginx Manager**: Visual site configuration (vHosts) and server controls (Start/Stop/Reload).
-  - **Mail Suite**: Seamless integration with **Mailpit** for local SMTP testing and inbox capture.
-- **🖥️ Custom Tray Dashboard**: 
-  - Glassmorphism overlay for real-time CPU/RAM monitoring and quick-access utility shortcuts.
-- **🧹 Project Janitor**: Scan and instantly purge heavy build artifacts (`node_modules`, `dist`, `vendor`) across scattered projects to reclaim disk space.
-- **🛠 Dev Utils Pocket**: 
-  - Offline-first tools: JSON Formatter, Base64/URL Converter, Hash Generator (SHA/MD5), JWT Debugger, and UUID Generator.
-- **📝 Hosts Manager**: Edit system DNS overrides with native privilege elevation (Admin/Sudo).
-- **🔌 Port Killer**: Detect and terminate processes bound to system ports in 1-click.
-- **🎬 Media Suite**: Batch image optimization and video transcoding powered by FFmpeg.
+Its main goals are:
 
-## 🛠 Tech Stack
+- Provide quick developer utilities for transforming, validating, and inspecting data.
+- Help manage local development environments such as Nginx, PHP-CGI, MySQL, and Mailplit.
+- Support system-level workflows such as port inspection, hosts file editing, and terminal access.
+- Make project maintenance easier by scanning and cleaning generated artifact folders.
+- Provide local file and media tools for viewing text-like files and converting images or videos.
 
-- **Frontend Core**: [Vue 3](https://vuejs.org/), [TypeScript](https://www.typescriptlang.org/), [Vite 6](https://vitejs.dev/)
-- **UI System**: [DaisyUI 5](https://daisyui.com/), [Tailwind CSS 4](https://tailwindcss.com/)
-- **Desktop Framework**: [Tauri v2](https://v2.tauri.app/), [Rust](https://www.rust-lang.org/)
-- **Engine Dependencies**: [Docker](https://www.docker.com/), [FFmpeg](https://ffmpeg.org/), [OpenSSH](https://www.openssh.com/)
+UtilityBox follows a user-triggered workflow model. Users choose a module, provide input, review the result, and explicitly run the action they need. Project files, command output, runtime paths, and workspace data stay local to the machine and are not sent to a remote service by the app.
 
-## 📄 License
+## 💻 2. Supported operating systems
 
-Licensed under the Apache License, Version 2.0.
+The current UtilityBox release is configured for Windows desktop usage.
+
+Supported platform:
+
+- Windows x64/amd64
+- Windows installer package using NSIS
+
+The current release configuration does not include macOS or Linux builds. Support for additional platforms may be added in future releases if the desktop packaging and bundled runtime setup are expanded.
+
+## 🌐 3. Website
+
+Official website:
+
+https://utilitybox.th.pro.vn
+
+## 🧩 4. Core modules
+
+UtilityBox includes a set of focused modules for developer productivity and local machine workflows.
+
+### 🛠️ Dev Utils
+
+Tools for transforming and inspecting common developer data formats.
+
+- Format, validate, minify, compare, and inspect JSON.
+- Encode and decode Base64 data.
+- Encode, decode, and inspect URLs.
+- Generate and verify hashes.
+- Decode and inspect JWT payloads.
+- Test regular expressions and preview matches.
+- Convert timestamps and date values.
+- Generate UUIDs.
+
+### 🎨 Color Forge
+
+A color workspace for choosing, converting, refining, and copying colors.
+
+- Pick and preview colors.
+- Convert between supported color formats.
+- Generate shades, tints, and related color values.
+- Copy generated color values for use in code, UI design, and documentation.
+
+### 🔌 Kill Port
+
+A system helper for finding and stopping processes that occupy ports.
+
+- Scan selected ports.
+- Inspect processes currently bound to those ports.
+- Terminate blocking processes directly from the app when needed.
+
+### 🖥️ Dev Runtime
+
+A local runtime manager for development services bundled or configured with UtilityBox.
+
+- Run and configure Nginx.
+- Run and configure PHP-CGI.
+- Run and configure MySQL.
+- Run and configure Mailplit.
+- Manage runtime paths and service settings from a desktop UI.
+
+### 🌍 Virtual Hosts
+
+A hosts file editor for local domain development.
+
+- Load the system hosts file.
+- Add, edit, and remove local host entries.
+- Validate changes before saving.
+- Save hosts configuration for local domain routing.
+
+### 📁 Project Engine
+
+A project workspace for organizing development folders and opening terminals with the right runtime context.
+
+- Save frequently used project folders.
+- Assign project runtimes such as PHP, Node.js, Go, and Python.
+- Open terminals directly from saved project entries.
+- Keep local project configuration accessible from one workspace.
+
+### 🧹 Project Janitor
+
+A cleanup tool for generated files and dependency artifacts.
+
+- Scan selected workspace roots.
+- Detect common artifact folders such as `node_modules`, `dist`, `target`, `vendor`, and `.next`.
+- Review scan results before cleanup.
+- Remove selected artifacts to recover disk space and reduce workspace clutter.
+
+### 📄 File Viewer
+
+A lightweight viewer for text-like files.
+
+- Open files such as logs, SQL files, CSV/TSV files, JSON, XML, Markdown, YAML, `.env`, and INI files.
+- Inspect file metadata.
+- Read content in bounded chunks instead of loading everything at once.
+- Useful for quickly checking large logs or configuration files.
+
+### 🖼️ Convert Image
+
+A batch image conversion workspace.
+
+- Convert multiple images in one workflow.
+- Choose output format.
+- Apply resolution presets.
+- Configure quality settings.
+- Control output naming rules.
+
+### 🎬 Convert Video
+
+A batch video transcoding workspace powered by configurable conversion settings.
+
+- Convert multiple videos in one workflow.
+- Choose output format and codec.
+- Configure resolution, FPS, and CRF.
+- Apply output naming rules.
+- Prepare media files for development, sharing, testing, or publishing workflows.
+
+### 🐳 Docker Dashboard
+
+A prepared workspace route for future Docker management features.
+
+This module is currently reserved for upcoming container-related controls and dashboard functionality.
+
+### ⚙️ Settings
+
+Application-level configuration for UtilityBox.
+
+- Adjust appearance and UI preferences.
+- Configure startup behavior.
+- Select shell preferences.
+- Import and export app configuration.
+- Manage runtime paths used by local services.
+
+### ℹ️ Application Info
+
+Product and release information for the installed UtilityBox build.
+
+- View the current app version.
+- Check update status.
+- Review the available feature list.
+- Open project and developer links.
+- Review the local-only application policy.
