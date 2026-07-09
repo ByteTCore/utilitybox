@@ -1,15 +1,15 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "notes": "See the assets to download this version and install.",
-  "pub_date": "2026-07-08T14:38:48.739Z",
+  "pub_date": "2026-07-09T03:17:14.380Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNW4rYmxFN2Ura3Z3dE9FQnhqMzI5eFV4QXB0YVZPRnhyMWVPRlhrZ2krUVk1cDJIbG9Hakw3NGRUN21DVElJOHJUV08rdjhIZHJ4a2JxNzhqMytKRXpvQWlDOXp2V2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNTIxNTE5CWZpbGU6VXRpbGl0eUJveF8xLjAuMl94NjQtc2V0dXAuZXhlCkxzc2VDbkFOZC8vQjY5SjNlL3dhaURtNFBTY2xCR1ROUEJqc05SaTk4YjBUZTdMQlAvVm9lM3BLaWUxMFRpK0NrVEZSRGxQQnhHNGh1WVVXQmpKSkFnPT0K",
-      "url": "https://github.com/ByteTCore/utilitybox/releases/download/1.0.2/UtilityBox_1.0.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNW4rYmxFN2Ura3VzY3FPQkFHNnhJTEJzVGZsUDVzM3ZYZG9ZQXJCRVhwSWNJNkNxUXovNTkzcVBWN0FteHB5c2pGUVB6aC9zUS9NR3EzNGYvUUx4RHlNUnBISm4rS0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNTY3MDI0CWZpbGU6VXRpbGl0eUJveF8xLjAuM194NjQtc2V0dXAuZXhlCjhDcWhpTzdDaTJnelN6dEowZ3ZHRVR6dmNYakQ0UUF1WkhUeTI5ZkJreE5ZWUlwcXA3OXpkMGNrNE03NFowZFcrWlJwYzVIZVJzb3g0b09YMDg5dENRPT0K",
+      "url": "https://github.com/ByteTCore/utilitybox/releases/download/1.0.3/UtilityBox_1.0.3_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNW4rYmxFN2Ura3Z3dE9FQnhqMzI5eFV4QXB0YVZPRnhyMWVPRlhrZ2krUVk1cDJIbG9Hakw3NGRUN21DVElJOHJUV08rdjhIZHJ4a2JxNzhqMytKRXpvQWlDOXp2V2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNTIxNTE5CWZpbGU6VXRpbGl0eUJveF8xLjAuMl94NjQtc2V0dXAuZXhlCkxzc2VDbkFOZC8vQjY5SjNlL3dhaURtNFBTY2xCR1ROUEJqc05SaTk4YjBUZTdMQlAvVm9lM3BLaWUxMFRpK0NrVEZSRGxQQnhHNGh1WVVXQmpKSkFnPT0K",
-      "url": "https://github.com/ByteTCore/utilitybox/releases/download/1.0.2/UtilityBox_1.0.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNW4rYmxFN2Ura3VzY3FPQkFHNnhJTEJzVGZsUDVzM3ZYZG9ZQXJCRVhwSWNJNkNxUXovNTkzcVBWN0FteHB5c2pGUVB6aC9zUS9NR3EzNGYvUUx4RHlNUnBISm4rS0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNTY3MDI0CWZpbGU6VXRpbGl0eUJveF8xLjAuM194NjQtc2V0dXAuZXhlCjhDcWhpTzdDaTJnelN6dEowZ3ZHRVR6dmNYakQ0UUF1WkhUeTI5ZkJreE5ZWUlwcXA3OXpkMGNrNE03NFowZFcrWlJwYzVIZVJzb3g0b09YMDg5dENRPT0K",
+      "url": "https://github.com/ByteTCore/utilitybox/releases/download/1.0.3/UtilityBox_1.0.3_x64-setup.exe"
     }
   }
 }

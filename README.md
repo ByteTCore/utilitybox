@@ -51,6 +51,10 @@ Tools for transforming and inspecting common developer data formats.
 - Test regular expressions and preview matches.
 - Convert timestamps and date values.
 - Generate UUIDs.
+- Format and validate YAML, TOML, and `.env` content.
+- Format and minify SQL.
+- Compare text inputs with a line diff preview.
+- Encode and decode QR codes locally.
 
 ### 🎨 Color Forge
 
